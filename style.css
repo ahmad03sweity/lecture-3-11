@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #808080;
+}
+.todo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.search{
+    padding: 5px;
+}
+.logo{
+    padding: 5px;
+    color: aliceblue;
+}
+.new{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#new-todo{
+    margin-right: 5px;
+}
+.todos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+p{
+    display: inline-block;
+}
+button{
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+}
+div{
+    display: inline-block;
+}
+li{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 30px;
+}
+
+.done-home{
+    display: flex;
+    justify-content: flex-start;
+}
+.dec{
+    text-decoration: line-through;
+}
+.bott{
+    align-self: flex-end;
+}
